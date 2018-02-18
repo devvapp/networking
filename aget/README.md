@@ -2,14 +2,14 @@
 
 
 ## Installation instructions
-$ wget http://libdill.org/libdill-2.4.tar.gz
-$ tar -xzf libdill-2.4.tar.gz
-$ cd libdill-2.4
+wget http://libdill.org/libdill-2.4.tar.gz
+tar -xzf libdill-2.4.tar.gz
+cd libdill-2.4
 
 ## To enable TLS and compile
-$./configure --enable-tls
-$ make
-$ sudo make install
+./configure --enable-tls
+make
+sudo make install
 
 
 
@@ -17,5 +17,5 @@ $ sudo make install
 cc -o aget aget.c -ldill
 
 ## Usage
-$ ./aget http www.github.com /devvapp
-$ ./aget http www.uselesswebpage.com /page.html
+./aget http www.github.com /devvapp
+./aget http www.uselesswebpage.com /page.html
